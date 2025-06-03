@@ -1,0 +1,6 @@
+Branch prefixes
+
+1. feat - feature branch
+2. bugfix - bug fixes
+3. chore - document changes
+4. release - new release
