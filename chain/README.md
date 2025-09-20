@@ -63,3 +63,9 @@ npm install bn.js
 ## References
 
 VSCode set up: https://www.youtube.com/watch?v=SnGwaRZ1Ci0
+
+
+## Naming Branches
+Categorize branches using prefixes like feature/, bugfix/, hotfix/, release/, or chore/. 
+
+Example: feature/new-user-auth, bugfix/login-issue-123, hotfix/critical-prod-bug.

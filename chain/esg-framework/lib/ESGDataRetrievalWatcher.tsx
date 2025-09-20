@@ -2,7 +2,7 @@ import Web3 from "web3";
 import ESGSubmissionABI from "../build/contracts/ESGDataSubmission.json"
 import { ESGDataEvent } from "@/types/types";
 
-const ESG_DATA_SUBMISSION_CONTRACT_ADDRESS = "0x978BD43B57f2Aae8189e5EbA75b16beBe95c4E75"
+const ESG_DATA_SUBMISSION_CONTRACT_ADDRESS = "0x694eAeEdbF24A21Dd76698edc7eB2CfC13e867CA"
 export function startESGDataRetrievalWatcher(callback: (data: ESGDataEvent) => void) {
   const web3 = new Web3("http://127.0.0.1:8545");
   const esg_data_submission_contract = new web3.eth.Contract(ESGSubmissionABI.abi as any, ESG_DATA_SUBMISSION_CONTRACT_ADDRESS)

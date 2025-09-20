@@ -104,3 +104,13 @@ contract ESGDataSubmission {
         return results;
     }
 }
+// truffle compile --reset
+// truffle migrate --reset
+// const t = await ESGDataSubmission.deployed()
+// await t.submitESGData("121", "Q1-2025", "POLLUTANTS_EMMISSION", "320", "QmHash12345", {from: accounts[0]})
+// let allevents = await t.getPastEvents('ESGDataSubmitted', {fromBlock: 0, toBlock: 'latest'})
+// console.log(allevents.map(e => e.returnValues))
+
+//get contract address
+//given deployed contract => esg (const esg = await ESGDataSubmission.deployed())
+//esg.address
